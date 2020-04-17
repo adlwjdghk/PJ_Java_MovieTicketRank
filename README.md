@@ -31,21 +31,26 @@ OneNews.java : 뉴스 1건의 제목과 본문을 수집
 ListNews.java : 뉴스 목록(1page)에서 뉴스별 제목과 본문을 수집
 PageNews.java : 페이지를 돌면서 뉴스 목록에서 뉴스별 제목과 본문을 수집
 DaumMovie.java : 다음 영화 1건에 평즘을 수집
+
 2. naver : Naver에서 수집
 
 NaverMovie.java : NAVER에서 영화 1건에 평점을 수집
+
 3. domain : DTO들이 모여있는 패키지
 
 MovieDTO.java : 평점 수집결과를 Oracle DB에 저장할때 사용하는 DTO
+
 4. persistence : DAO들이 모여있는 패키지
 
 MovieDAO.java : 평점 수집결과를 oracle DB에 저장할때 사용하는 DAO
+
 5. mybatis : Mybatis 프레임워크 관련 환경설정
 
 db.Properties : Oracle 접속 환경
 Configuration.xml : Mybatis 사용 환경(Mapper, DB접속 등)
 SqlMapConfig.java : SqlSessionFactory를 생성
 MovieMapper.xml : Mybatis의 SQL들이 모여있는 파일
+
 6. ticketrank : 실제 프로젝트
 
 TicketMain : 메인 프로그램 (프로그램 출력부)
